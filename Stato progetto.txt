@@ -1,0 +1,3 @@
+DA CHIARIRE:
+- Dubbio su generalizzazione attori (Diagramma casi d'uso) e la loro rappresentazione nel modello di dominio. 
+- Nel documento non è richiesto che amministratori e operatori debbano poter visualizzare cataloghi e effettuare ricerche ma il buon senso ci dice che dovrebbero.
