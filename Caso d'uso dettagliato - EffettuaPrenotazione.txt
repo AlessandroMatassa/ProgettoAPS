@@ -1,0 +1,55 @@
+Caso d'uso: EffettuaPrenotazione
+Portata: Sistema webApp
+Livello: Obiettivo utente
+Attore Primario: Cliente
+Parti Interessate e Interessi:
+	- Cliente: Vuole prenotare un viaggio, ferroviario o aereo, o un pacchetto vacanza.
+		Vuole anche un riepilogo della prenotazione prima di confermare la prenotazione.
+	- Sistema: Vuole mostrare al cliente il form relativo al viaggio o pacchetto vacanza scelto, e ricevere i dati forniti dal cliente. 
+		Vuole anche mostrare al cliente un riepilogo della prenotazione, inviare un'email di riepilogo dopo la conferma del cliente, e un'email di notifica due giorni prima della scadenza del pagamento del saldo, se il cliente non ha ancora pagato.
+		Al pagamento del saldo, vuole inviare un'ulteriore email di conferma e la ricevuta del totale.
+		Inoltre vuole inviare la richiesta di prenotazione all'agenzia di riferimento.
+
+Pre-condizioni:
+	Il cliente deve essere registrato ed autenticato, con almeno un metodo di pagamento valido salvato.
+
+Garanzia di successo: La prenotazione viene effettuata e inviata all'agenzia di riferimento. La caparra viene pagata correttamente e il cliente riceve un'email di riepilogo, più un'email con la ricevuta al pagamento del totale.
+
+Scenario principale di successo:
+	1) Il cliente seleziona un viaggio o un pacchetto vacanza da prenotare.
+	2) Il sistema mostra al cliente il form da compilare relativo all'opzione scelta e il valore da pagare come caparra.
+	3) Il cliente inserisce tutti i dati della richiesta nel form, incluso la scelta di un metodo di pagamento tra quelli salvati.
+	4) Il sistema gestisce il pagamento della caparra e, dopo aver ricevuto l'esito positivo del pagamento, mostra al cliente il riepilogo della prenotazione, con l'opzione di procedere o di modificare dei dati.
+	5) Il cliente conferma di voler procedere.
+	6) Il sistema invia all'utente un'email di conferma e riepilogo della prenotazione, ed invia la richiesta all'agenzia di riferimento.
+	7) Il cliente paga il saldo restante.
+	8) Il sistema invia al cliente un'email di conferma e la ricevuta del totale.
+
+Estensioni:
+	4a) Il pagamento della caparra non va a buon fine:
+		4a-1) Il sistema notifica al cliente il fallimento del pagamento della caparra, e chiede di riprovare o provare ad usare un altro metodo di pagamento.
+		4a-2) Il cliente riprova con lo stesso metodo di pagamento:
+		4a-3) Il pagamento avviene con successo, e la prenotazione prosegue normalmente (altrimenti, ritorna al punto 1)).
+			4a-1a) Il cliente riprova con un metodo di pagamento diverso:
+				4a-1a-1) Il pagamento avviene con successo, e la prenotazione prosegue normalmente.
+					4a-1a-1a) Il pagamento fallisce ugualmente, ritorna al punto 4a-1).
+			4a-1b) Il cliente ferma la prenotazione:
+				4a-1b-1) Il sistema rimuove il form e ritorna al catalogo di viaggi o pacchetti vacanze.
+
+	7a) Il cliente non ha ancora pagato il saldo per la prenotazione due giorni prima della scadenza del pagamento:
+		7a-1) Il sistema invia al cliente un'email per notificarli la scadenza del pagamento del saldo.
+		7a-2) Il cliente paga il saldo correttamente:
+		7a-3) Il sistema prosegue normalmente, inviando al cliente un'email di conferma e la ricevuta del totale.
+			7a-2a) Il cliente non paga il saldo fino alla scadenza.
+				7a-2a-1) Il sistema cancella la prenotazione, e notifica al cliente dell'avvenuto.
+
+Requisiti speciali:
+	- L'email di conferma e riepilogo devono essere inviate entro 2 minuti dalla conclusione della prenotazione e/o pagamento.
+	- Il form deve avere più versioni in lingue diverse e un formato comodo per sistemi mobili.
+	- Il pagamento deve avvenire entro 1 minuto.
+
+Elenco delle varianti tecnologiche e dei dati: Nessuna.
+
+Frequenza di Ripetizione: Potrebbe essere quasi ininterrotta.
+
+Problemi aperti: Nessuno.
