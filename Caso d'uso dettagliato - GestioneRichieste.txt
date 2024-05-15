@@ -1,0 +1,57 @@
+Matassa Alessandro	894645
+
+Selezione del caso d’uso:	Descrizione
+
+Nome del caso d’uso:		GestioneRichieste
+
+Portata:					Sistema software basato sul web per agenzie di viaggi
+
+Livello:					Obiettivo utente		
+Attore primario:			Operatore
+
+Parti interessate e interesse:	
+                            L’Operatore intende analizzare le richieste di modifica fatte dai clienti 
+                            al fine di verificare se le modifiche sono o meno conformi. 
+                            L’interesse del cliente è nella verifica e approvazione della sua richiesta.
+
+Pre-condizioni:				
+                            1)	Il cliente ha effettuato una prenotazione
+							2)	Il cliente deve aver fatto richiesta di modifica di una prenotazione entro le scadenze 
+							3)	L’operatore deve essere autenticato
+                            
+Garanzia di successo:       È stata verificata una richiesta di modifica ed è stata modificata dall’operatore
+ 
+Scenario Principale di successo:
+							1)	L’operatore legge la richiesta di modifica e la prende in carico
+							2)	L’operatore contatta la compagnia ferroviaria/aerea e il tour operator
+							3)	L’ente esterno approva la richiesta e effettua la modifica						
+							4)	L’operatore cambia il numero dei partecipanti nel sistema e aggiorna il costo
+							5)	L’operatore approva la richiesta 
+							6)	L’operatore notifica l’esito al cliente 
+Estensioni:
+							3a) Uno o più enti esterni rifiutano la modifica:
+								3a.1)	La compagnia ferroviaria/aerea e/o il tour operator non approvano la richiesta per mancanza di posti						
+							
+                            3b) Il cliente vuole cancellare una prenotazione  e viene accettata la modifica
+								3b.1)	La compagnia ferroviaria/aerea e il tour operator approvano il rimborso 				
+							    3b.2)	L’operatore contatta l’istituto di credito per restituire i soldi al cliente 
+							    3b.3)	L’operatore invia l’esito positivo al cliente
+							    3b.4)	L’operatore aggiorna la rinnovata disponibilità dei viaggi
+
+                    	    3c) Il cliente vuole cancellare una prenotazione e viene rifiutata la modifica
+								3c.1)	La compagnia ferroviaria/aerea e il tour operator approvano il rimborso
+								3c.2)	L’operatore non annulla la prenotazione
+								3c.3)	L’operatore rifiuta la richiesta
+						
+
+Requisiti speciali:			
+                            Il sistema aggiorna la prenotazione entro 5 secondi.
+							Il sistema deve garantire la sicurezza e la riservatezza dei dati personali degli utenti.
+							Il sistema deve essere conforme alle normative vigenti in materia di protezione dei dati.
+							L'interfaccia utente deve essere intuitiva e facile da usare per gli operatori.
+	
+
+Frequenza di ripetizione:   
+                            Il caso d’uso viene eseguito tutte le volte che un cliente apre 
+                            una richiesta di modifica di una prenotazione entro la scadenza in cui
+                            è possibile modificare la prenotazione
