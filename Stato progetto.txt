@@ -1,5 +1,26 @@
-DA CHIARIRE:
-- Dubbio su generalizzazione attori (Diagramma casi d'uso) e la loro rappresentazione nel modello di dominio. 
-- Nel documento non è richiesto che amministratori e operatori debbano poter visualizzare cataloghi e effettuare ricerche ma il buon senso ci dice che dovrebbero.
+CONSEGNA LAB 1
+A causa di un disguido di comunicazione, e dunque di sincronizzazione, abbiamo consegnato una versione
+precedente del progetto (.vpp) che conteneva una versione del diagramma dei casi d'uso obsoleta e
+non conteneva ancora il modello di dominio.
 
-- La ricerca effettuata dagli utenti a cosa si riferisce? A pacchetti e viaggi? Perché i cataloghi dice che si visualizzano e basta. Forse il catalogo è un pdf da consultare e poi si possono ricercare pacchetti e viaggi come i prodotti di un e-commerce.
+CONSEGNA LAB 2
+Consegniamo la versione del progetto in cui è presente anche il modello di dominio che mancava
+nella consegna del lab 1.
+
+DA CHIARIRE:
+
+
+CHIARITO:
+- Dubbio su generalizzazione attori (Diagramma casi d'uso) e la loro rappresentazione nel modello di dominio.
+    RISPOSTA: Va bene anche così
+- Nel documento non è richiesto che amministratori e operatori debbano poter visualizzare cataloghi
+  e effettuare ricerche ma il buon senso ci dice che dovrebbero.
+    RISPOSTA: Va bene così come conseguenza del punto precedente.
+
+- La ricerca effettuata dagli utenti a cosa si riferisce? A pacchetti? (a viaggi no perché 
+  non sono presenti sui cataloghi come chiarito dal forum T1)
+
+    Perché i cataloghi dice che si visualizzano e basta. 
+    Forse il catalogo è un pdf da consultare e poi si possono ricercare pacchetti 
+    e viaggi come i prodotti di un e-commerce.
+    Maurizio immagina il catalogo come una pagina web dedicata con un elenco di pacchetti.
