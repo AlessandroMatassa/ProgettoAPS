@@ -56,9 +56,9 @@ Scenario Principale di Successo:
 
 Requisiti Speciali:
 
-    Interfaccia utente responsiva per permettere la registrazione anche
+    - Interfaccia utente responsiva per permettere la registrazione anche
     da dispositivi mobili.
-    Sistema di verifica dell’email per confermare la validità dell’indirizzo.
+    - Sistema di verifica dell’email per confermare la validità dell’indirizzo.
 
 Frequenza di Ripetizione: Potenzialmente ogni volta che un visitatore del sito
 è desideroso di registrarsi.
