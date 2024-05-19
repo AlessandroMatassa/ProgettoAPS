@@ -9,6 +9,8 @@ Parti Interessate e Interessi:
 		Vuole anche mostrare al cliente un riepilogo della prenotazione, inviare un'email di riepilogo dopo la conferma del cliente, e un'email di notifica due giorni prima della scadenza del pagamento del saldo, se il cliente non ha ancora pagato.
 		Al pagamento del saldo, vuole inviare un'ulteriore email di conferma e la ricevuta del totale.
 		Inoltre vuole inviare la richiesta di prenotazione all'agenzia di riferimento.
+	- Istituto di credito: Vuole ricevere e gestire correttamente le richieste di pagamento.
+	- Agenzia di viaggi/vacanza: Vuole poter ricevere richieste di prenotazioni dei cliente.
 
 Pre-condizioni:
 	Il cliente deve essere registrato ed autenticato, con almeno un metodo di pagamento valido salvato.
@@ -18,8 +20,8 @@ Garanzia di successo: La prenotazione viene effettuata e inviata all'agenzia di 
 Scenario principale di successo:
 	1) Il cliente seleziona un viaggio o un pacchetto vacanza da prenotare.
 	2) Il sistema mostra al cliente il form da compilare relativo all'opzione scelta e il valore da pagare come caparra.
-	3) Il cliente inserisce tutti i dati della richiesta nel form, incluso la scelta di un metodo di pagamento tra quelli salvati.
-	4) Il sistema gestisce il pagamento della caparra e, dopo aver ricevuto l'esito positivo del pagamento, mostra al cliente il riepilogo della prenotazione, con l'opzione di procedere o di modificare dei dati.
+	3) Il cliente inserisce tutti i dati della richiesta nel form, incluso la scelta di un metodo di pagamento tra quelli salvati, e conferma l'inserimento..
+	4) Il sistema invia le informazioni relative al pagamento della caparra all'istituto di credito e, dopo aver ricevuto l'esito positivo del pagamento, mostra al cliente il riepilogo della prenotazione, con l'opzione di procedere o di modificare dei dati.
 	5) Il cliente conferma di voler procedere.
 	6) Il sistema invia all'utente un'email di conferma e riepilogo della prenotazione, ed invia la richiesta all'agenzia di riferimento.
 	7) Il cliente paga il saldo restante.
