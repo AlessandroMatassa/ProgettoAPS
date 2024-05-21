@@ -1,0 +1,7 @@
+Agenzia:
+	Sinonimo di Tour Operator.
+
+Viaggiatore:
+	Risulta in una prenotazione ma
+	non si è mai registrato.
+	È un Cliente senza un account.
