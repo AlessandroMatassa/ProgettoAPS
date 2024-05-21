@@ -1,0 +1,30 @@
+Contratto effettuaNuovaPrenotazione
+Operazione: effettuaNuovaPrenotazione()
+Riferimenti caso d'uso: EffettuaPrenotazione
+Precondizioni: è in corso l'effettuamento di una nuova prenotazione, fatta da un Cliente c, per un PacchettoVacanza pc
+Postcondizioni:
+	- È stata creata un'istanza p di Prenotazione (creazione di oggetto)
+	- L'istanza p di Prenotazione è stata associata al Cliente c (formazione di collegamento)
+	- L'istanza p di Prenotazione è stata associata al PacchettoVacanza pc (formazione di collegamento)
+
+
+
+Contratto inserisciDatiForm
+Operazione: inserisciDatiForm(nome, cognome, dataDiNascita, codiceFiscale)
+Riferimenti caso d'uso: EffettuaPrenotazione
+Precondizioni: è in corso l'effettuamento di una nuova prenotazione
+Postcondizioni:
+	- È stata creata un'istanza v di Viaggiatore (creazione di oggetto)
+	- Gli attributi di v sono stati inizializzati (modifica di attributi)
+	- v.nome è diventato nome (modifica di attributi)
+	- v.cognome è diventato cognome (modifica di attributi)
+	- v.dataDiNascita è diventato dataDiNascita (modifica di attributi)
+	- v.codiceFiscale è diventato codiceFiscale (modifica di attributi)
+	- l'istanza v di Viaggiatore è stata associata alla Prenotazione p (formazione di collegamento)
+
+
+
+Note e modifiche:
+	- Aggiunto classe Viaggiatore, con attributi nome, cognome, dataDiNascita e codiceFiscale
+	- Rimosso l'attributo "numeroPersone" da Prenotazione
+	- Collegati Prenotazione con Viaggiatore
