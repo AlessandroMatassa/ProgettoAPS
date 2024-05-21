@@ -37,7 +37,7 @@ Scenario Principale di Successo:
     6. Il sistema crea un nuovo account e invia un'email di verifica
     all’indirizzo fornito.
     
-    7. L’Utente Generico conferma la registrazione cliccando
+    7. L’Utente conferma la registrazione cliccando
     sul link ricevuto via email.
     
     8. Il sistema conferma l’attivazione dell’account.
