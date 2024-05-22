@@ -1,0 +1,20 @@
+Matassa Alessandro  894645
+
+Contratto richiestaModifica
+Operazione: richiestaModifica(codicePrenotazione, modifica)
+Riferimenti caso d'uso: gestioneRichieste
+Precondizioni: un cliente C ha richiesto una modifica per una prenotazione p da lui precedentemente effettuata e l'operatore op ha preso a carico la richiesta
+Postcondizioni:
+	- il numero di istanze di Viaggiatore associate alla prenotazione p è cambiato se la richiesta è stata approvata
+	- l'attributo del costo da pagare è stato aggiornato
+
+
+
+Contratto eliminaPrenotazione
+Operazione: eliminaPrenotazione(codicePrenotazione)
+Riferimenti caso d'uso: gestioneRichieste
+Precondizioni: un cliente C ha richiesto un rimborso per una prenotazione p da lui precedentemente effettuata, l'operatore op ha preso a carico la richiesta e l'agenzia ha confermato la richiesta
+Postcondizioni:
+	- viene aggiornato l'attributo cancellata dell'istanza della prenotazione p
+	- viene creata una istanza di rimborso associata a p con gli attributi importo e metodo presi dall'istanza pagamento sempre associata a p
+
