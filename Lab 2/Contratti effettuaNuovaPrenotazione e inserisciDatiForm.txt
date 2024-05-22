@@ -1,3 +1,5 @@
+Zheng Lei Maurizio 866251
+
 Contratto effettuaNuovaPrenotazione
 Operazione: effettuaNuovaPrenotazione()
 Riferimenti caso d'uso: EffettuaPrenotazione
