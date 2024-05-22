@@ -1,0 +1,23 @@
+Mandelli Marco 890078
+
+Contratto CO1: creaNuovoCliente
+Operazione: creaNuovoCliente(nome, cognome, email)
+Pre-condizioni:
+    - L'Utente non deve essere già registrato con la stessa email.
+    - I dati del form di registrazione devono essere completi e validi.
+Post-condizioni:
+    - È stata creata un'istanza c di Cliente.
+    - Gli attributi di c sono stati inizializzati:
+        - c.nome è stato impostato su nome.
+        - c.cognome è stato impostato su cognome.
+        - c.email è stato impostato su email.
+
+
+Contratto CO2: associaMetodoPagamento
+Operazione: associaMetodoPagamento(metodoDiPagamento)
+Pre-condizioni:
+    - Il Cliente deve esistere nel sistema (deve essere stato creato e registrato).
+    - Un'istanza mp di MetodoDiPagamento deve esistere nel sistema.
+    - Gli attributi di mp devono essere stati inizializzati.
+Post-condizioni:
+    - L'istanza mp è stata associata al Cliente corrente.
