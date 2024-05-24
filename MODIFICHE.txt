@@ -1,0 +1,22 @@
+Lab 1:
+	Generale:
+		- Caricato un file vecchio per sbaglio
+Lab 2:
+	Generale:
+		- Caricato file corretto
+	Maurizio:
+		- Aggiunto classe Viaggiatore, con attributi nome, cognome, 
+        		dataDiNascita e codiceFiscale.
+		- Rimosso l'attributo "numeroPersone" da Prenotazione.
+		- Collegati Prenotazione con Viaggiatore.
+		- Sistemati i nomi delle classi e degli attributi come parole singole
+			nel modello di dominio.
+
+Lab 3:
+	Marco:
+		- Correnzione del SSD RegistraUtente: rimossi lifeline Cliente
+			e MetodoDiPagamento.
+		- Corretto AD RegistrazioneUtente
+	Maurizio:
+		- Modificato nel CUD le estensioni, rimuovendo ridondanze e rendendoli più leggibili.
+		
