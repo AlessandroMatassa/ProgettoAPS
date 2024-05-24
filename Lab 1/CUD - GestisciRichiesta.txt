@@ -2,7 +2,7 @@ Matassa Alessandro	894645
 
 Selezione del caso d’uso:	Descrizione
 
-Nome del caso d’uso:		GestioneRichieste
+Nome del caso d’uso:		GestisciRichiesta
 
 Portata:					Sistema software basato sul web per agenzie di viaggi
 

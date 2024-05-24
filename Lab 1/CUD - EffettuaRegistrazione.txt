@@ -1,6 +1,6 @@
 Marco Mandelli 890078
 
-Nome del Caso d’Uso: Registrazione Utente
+Nome del Caso d’Uso: EffettuaRegistrazione
 
 Portata: Sistema software basato sul Web per agenzie di viaggi
 
