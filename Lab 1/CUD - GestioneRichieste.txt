@@ -32,16 +32,15 @@ Estensioni:
 							3a) Uno o più enti esterni rifiutano la modifica:
 								3a.1)	La compagnia ferroviaria/aerea e/o il tour operator non approvano la richiesta per mancanza di posti						
 							
-                            3b) Il cliente vuole cancellare una prenotazione  e viene accettata la modifica
+                            3b) Il cliente vuole cancellare una prenotazione  e viene accettata la richiesta
 								3b.1)	La compagnia ferroviaria/aerea e il tour operator approvano il rimborso 				
 							    3b.2)	L’operatore contatta l’istituto di credito per restituire i soldi al cliente 
 							    3b.3)	L’operatore invia l’esito positivo al cliente
 							    3b.4)	L’operatore aggiorna la rinnovata disponibilità dei viaggi
 
-                    	    3c) Il cliente vuole cancellare una prenotazione e viene rifiutata la modifica
-								3c.1)	La compagnia ferroviaria/aerea e il tour operator approvano il rimborso
-								3c.2)	L’operatore non annulla la prenotazione
-								3c.3)	L’operatore rifiuta la richiesta
+                    	    3c) Il cliente vuole cancellare una prenotazione e viene rifiutata la richiesta
+								3c.1)	La compagnia ferroviaria/aerea o il tour operator non approvano la cancellazione
+								3c.2)	L’operatore rifiuta la richiesta
 						
 
 Requisiti speciali:			
