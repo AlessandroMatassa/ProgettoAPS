@@ -6,6 +6,7 @@ Riferimenti caso d'uso: EffettuaPrenotazione
 Precondizioni: è in corso l'effettuamento di una nuova prenotazione, fatta da un Cliente c, per un PacchettoVacanza pc
 Postcondizioni:
 	- È stata creata un'istanza p di Prenotazione (creazione di oggetto)
+	- Gli attributi di p sono stati inizializzati (modifica di attributi)
 	- L'istanza p di Prenotazione è stata associata al Cliente c (formazione di collegamento)
 	- L'istanza p di Prenotazione è stata associata al PacchettoVacanza pc (formazione di collegamento)
 

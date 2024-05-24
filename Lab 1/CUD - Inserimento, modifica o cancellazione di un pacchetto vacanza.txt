@@ -1,8 +1,8 @@
 Strazzeri Elia 900235
 
 Nome del caso d’ Uso: Inserimento di un pacchetto vacanza
-Portata: Sistema Viaggi
-Livello: Obbiettivo Utente
+Portata: Sistema software basato sul web per agenzie di viaggi
+Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole inserire nuovi pacchetti vacanza nei cataloghi
 Pre-condizioni: deve esistere almeno un catalogo
@@ -36,8 +36,8 @@ Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
 
 Nome del caso d’ Uso: Modifica di un pacchetto vacanza
-Portata: Sistema Viaggi
-Livello: Obbiettivo Utente
+Portata: Sistema software basato sul web per agenzie di viaggi
+Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole modificare pacchetti vacanza nei cataloghi
 Pre-condizioni: -
@@ -75,8 +75,8 @@ Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
 	
 Nome del caso d’ Uso: Eliminazione di un pacchetto vacanza
-Portata: Sistema Viaggi
-Livello: Obbiettivo Utente
+Portata: Sistema software basato sul web per agenzie di viaggi
+Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole eliminare pacchetti vacanza nei cataloghi
 Pre-condizioni: -

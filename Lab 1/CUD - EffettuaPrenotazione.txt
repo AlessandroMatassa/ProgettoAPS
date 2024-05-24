@@ -1,7 +1,7 @@
 Zheng Lei Maurizio 866251
 
 Caso d'uso: EffettuaPrenotazione
-Portata: Sistema webApp
+Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo utente
 Attore Primario: Cliente
 Parti Interessate e Interessi:
@@ -21,7 +21,7 @@ Garanzia di successo: La prenotazione viene effettuata e inviata all'agenzia di 
 
 Scenario principale di successo:
 	1) Il cliente seleziona un viaggio o un pacchetto vacanza da prenotare.
-	2) Il sistema mostra al cliente il form da compilare relativo all'opzione scelta e il valore da pagare come caparra.
+	2) Il sistema mostra al cliente il form di prenotazione da compilare relativo all'opzione scelta e il valore da pagare come caparra.
 	3) Il cliente inserisce tutti i dati della richiesta nel form, incluso il numero di persone e la scelta di un metodo di pagamento tra quelli salvati, e conferma l'inserimento.
 	4) Il sistema invia le informazioni relative al pagamento della caparra all'istituto di credito e, dopo aver ricevuto l'esito positivo del pagamento, mostra al cliente il riepilogo della prenotazione, con l'opzione di procedere o di modificare dei dati.
 	5) Il cliente conferma di voler procedere.
