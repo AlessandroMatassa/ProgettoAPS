@@ -8,14 +8,9 @@ CONSEGNA LAB 2
 Consegniamo la versione del progetto in cui è presente anche il 
 modello di dominio che mancava nella consegna del lab 1.
 
-  MODIFICHE:
-    Maurizio:
-      - Aggiunto classe Viaggiatore, con attributi nome, cognome, 
-        dataDiNascita e codiceFiscale.
-      - Rimosso l'attributo "numeroPersone" da Prenotazione.
-      - Collegati Prenotazione con Viaggiatore.
-      - Sistemati i nomi delle classi e degli attributi come parole singole
-       nel modello di dominio.
+CONSEGNA LAB 3
+Abbiamo corretto i diagrammi di attività consegnati nel lab 2.
+
 
 DA CHIARIRE:
 RegistrazioneUtente estensione 7a

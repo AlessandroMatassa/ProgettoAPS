@@ -6,7 +6,7 @@ Lab 2:
 		- Caricato file corretto
 	Maurizio:
 		- Aggiunto classe Viaggiatore, con attributi nome, cognome, 
-        		dataDiNascita e codiceFiscale.
+        	dataDiNascita e codiceFiscale.
 		- Rimosso l'attributo "numeroPersone" da Prenotazione.
 		- Collegati Prenotazione con Viaggiatore.
 		- Sistemati i nomi delle classi e degli attributi come parole singole
@@ -14,7 +14,7 @@ Lab 2:
 
 Lab 3:
 	Marco:
-		- Correnzione del SSD RegistraUtente: rimossi lifeline Cliente
+		- Correzione del SSD RegistraUtente: rimossi lifeline Cliente
 			e MetodoDiPagamento.
 		- Corretto AD RegistrazioneUtente
 	Maurizio:
