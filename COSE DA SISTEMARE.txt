@@ -1,19 +1,16 @@
 Elia:
 	- Sistemare AD con per questione delle "a".
+	- Sistemare SSD.
 
 Alessandro:
-	- Sistemare/Rifare AD.
+
 
 Marco:
 
 
 Maurizio:
-	- SSD: Modificare metodo inviaDatiPartecipante => inviaDatiViaggiatore.
-	- AD: Mettere identificatori ai sender e receiver.
 
 
 Generali:
 	- Modello di dominio: Rimuovere i metodi.
-	- Modello di dominio: Rimuovere attributi CF e num telefono da Cliente perchè inutilizzati.
-	- Modello di dominio: Aggiungere attributo Codice a Prenotazione
 	- Nomenclature dei vari diagrammi incongruenti con il diagramma dei casi d'uso
