@@ -1,6 +1,6 @@
 Strazzeri Elia 900235
 
-Nome del caso d’ Uso: Inserimento di un pacchetto vacanza
+Nome del caso d’ Uso: InserimentoPacchettoVacanza
 Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
@@ -35,7 +35,7 @@ Extension Points: -
 Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
 
-Nome del caso d’ Uso: Modifica di un pacchetto vacanza
+Nome del caso d’ Uso: ModificaPacchettoVacanza
 Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
@@ -74,7 +74,7 @@ Extension Points: -
 Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
 	
-Nome del caso d’ Uso: Eliminazione di un pacchetto vacanza
+Nome del caso d’ Uso: EliminaPacchettoVacanza
 Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
