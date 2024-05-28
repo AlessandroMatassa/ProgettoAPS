@@ -1,7 +1,7 @@
 Mandelli Marco 890078
 
 Contratto CO1: inserisciDatiRegistrazione
-Operazione: inserisciDatiRegistrazione(nome, cognome, email, password, conferma_password, metodo_di_pagamento)
+Operazione: inserisciDatiRegistrazione(nome, cognome, email, password, metodo_di_pagamento)
 Pre-condizioni:
     - Il Sistema ha presentato il form di registrazione all'Utente.
     - Il Sistema ha inizializzato un'istanza c di Cliente.
