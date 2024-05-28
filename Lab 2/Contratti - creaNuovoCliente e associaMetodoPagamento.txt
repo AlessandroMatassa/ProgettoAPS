@@ -1,16 +1,13 @@
 Mandelli Marco 890078
 
-Contratto CO1: creaNuovoCliente
-Operazione: creaNuovoCliente(nome, cognome, email)
+Contratto CO1: inserisciDatiRegistrazione
+Operazione: inserisciDatiRegistrazione(nome, cognome, email, password, conferma_password, metodo_di_pagamento)
 Pre-condizioni:
-    - L'Utente non deve essere già registrato con la stessa email.
-    - I dati del form di registrazione devono essere completi e validi.
+    - Il Sistema ha presentato il form di registrazione all'Utente.
+    - Un'istanza c di Cliente è già stata inizializzata dal Sistema.
 Post-condizioni:
-    - È stata creata un'istanza c di Cliente.
-    - Gli attributi di c sono stati inizializzati:
-        - c.nome è stato impostato su nome.
-        - c.cognome è stato impostato su cognome.
-        - c.email è stato impostato su email.
+    - L'Utente conferma l'inserimento.
+    - Il Sistema verifica che la email non sia già presente nel sistema.
 
 
 Contratto CO2: associaMetodoPagamento
