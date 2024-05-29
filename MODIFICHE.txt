@@ -13,6 +13,7 @@ Lab 2:
 			nel modello di dominio.
 
 Lab 3:
+Abbiamo corretto i diagrammi di attività consegnati nel lab 2 e modificato alcuni contratti.
 	Marco:
 		- Correzione del SSD RegistraUtente: rimossi lifeline Cliente
 			e MetodoDiPagamento.
