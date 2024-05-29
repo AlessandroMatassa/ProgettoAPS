@@ -1,19 +1,20 @@
 Mandelli Marco 890078
 
-Contratto CO1: inserisciDatiRegistrazione
+Contratto C01: effettuaRegistrazioneUtente
+Operazione: effettuaRegistrazioneUtente()
+Pre-condizioni:
+    - L'Utente ha cliccato sul tasto "Registra" della UI.
+Post-condizioni:
+    - È stata creata un'istanza c di Cliente.
+
+
+Contratto CO2: inserisciDatiRegistrazione
 Operazione: inserisciDatiRegistrazione(nome, cognome, email, password, metodo_di_pagamento)
 Pre-condizioni:
     - Il Sistema ha presentato il form di registrazione all'Utente.
-    - Il Sistema ha inizializzato un'istanza c di Cliente.
 Post-condizioni:
-    - L'Utente conferma l'inserimento.
-    - Il Sistema verifica che la email non sia già presente nel sistema.
-
-
-Contratto CO2: verificaRiutilizzoEmail
-Operazione: verificaRiutilizzoEmail(email)
-Pre-condizioni:
-    - Il Sistema ha ricevuto i dati dell'Utente.
-    - È in corso la creazione di un Cliente c.
-Post-condizioni:
+    - Gli attributi di c sono stati inizializzati.
+    - c.nome è diventato nome.
+    - c.cognome è diventato cognome.
     - c.email è diventato email.
+    - c.password è diventato password.
