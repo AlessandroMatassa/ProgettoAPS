@@ -2,17 +2,18 @@ Strazzeri Elia 900235
 
 CONTRATTI
 
-Contratto C01: aggiungiPacchetto
-Operazione: aggiungiPacchetto()
-Riferimenti: casi d' uso: inserimento di un pacchetto vacanza
-Pre-condizioni: e' stato creato un oggetto Amministratore a, e' stato creato un oggetto 		Catalogo ca
-Post-condizioni: -e' stato creato un oggetto Pacchetto Vacanza vp nel Catalogo ca
-
+Contratto C01: inserisciPacchetto
+Operazione: inserisciPacchetto(costo, periodoSoggiorno, alloggio)
+Riferimenti: casi d' uso: InserisciPacchettoVacanza
+Pre-condizioni: e' in corso l'inserimento di un PacchettoVacanza nel Catalogo ca
+Post-condizioni: -e' stato creato un oggetto PacchettoVacanza vp nel Catalogo ca
+		 -i suoi attributi sono stati inizializzati
+		 -vp.costo diventa costo
+		 -vp.periodoSoggiorno diventa periodoSoggiorno
+		 -vp.alloggio diventa alloggio
 
 Contratto C02: rimuoviPacchetto
-Operazioni: rimuoviPacchetto()
-Riferimenti: casi d' uso: eliminazione di un pacchetto vacanza
-Pre-condizioni: esistono Clienti c collegati al Pacchetto Vacanza pv
-		
-Post-condizioni: - l' istanza pv di Pacchetto vacanza viene rimossa (rimozione di oggetto)
-		 - L' istanza n1, ..., nm di Pacchetto Vacanza associata a c viene rimossa (rimozione di oggetto)
+Operazioni: rimuoviPacchetto(pacchetto)
+Riferimenti: casi d' uso: RimuoviPacchettoVacanza
+Pre-condizioni: e' in corso la rimozione di un PacchettoVacanza vp dal Catalogo ca
+Post-condizioni: - l' istanza pv di PacchettoVacanza viene rimossa (rimozione di oggetto)
