@@ -23,4 +23,3 @@ Postcondizioni:
 	- v.cognome è diventato cognome (modifica di attributi)
 	- v.dataDiNascita è diventato dataDiNascita (modifica di attributi)
 	- v.codiceFiscale è diventato codiceFiscale (modifica di attributi)
-	- l'istanza v di Viaggiatore è stata associata alla Prenotazione p (formazione di collegamento)
