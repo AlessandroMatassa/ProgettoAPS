@@ -1,38 +1,52 @@
 public class Prenotazione {
 	
 	//attributi
-	protected String codicePrenotazione;
-	protected double importoTotale;
-	protected String status;
-	protected Viaggiatore[] viaggiatori;
+	private String codicePrenotazione;
+	private double importoTotale;
+	private String status;
+	private Viaggiatore[] viaggiatori;
+	private PacchettoVacanza pacchettoVacanza;
+	private Pagamento[2] pagamenti;
+	
 	
 	//metodi
-	create() {
+	public void create() {
 		//creazione di un istanza Prenotazione
 	};
 	
-	inserisciDatiForm(String nome, String cognome, String dataDiNascita, String codiceFiscale) {
-		//creazione di un Viaggiatore e inizializzazione dei suoi attributi
-	}
-	
-	eliminaPrenotazione(String codicePrenotazione) {
+	public void eliminaPrenotazione(String codicePrenotazione) {
 		//eliminazione di una prenotazione
 	}
 	
-	//NOTA: non dovrebbe avere un paramentro status?
-	aggiornaStatus() {
+	public void aggiornaStatus(String status) {
 		//modifica status
 	}
 	
-	modificaPrenotazione(String codicePrenotazione, Viaggiatore viaggiatore, double importo) {
+	public void modificaPrenotazione(String codicePrenotazione, Viaggiatore viaggiatore, double importo) {
 		//modifica di una prenotazione
 	}
 	
-	aggiungiViaggiatore(Viaggiatore viaggiatore) {
+	public void aggiungiViaggiatore(Viaggiatore viaggiatore) {
 		//aggiunta di un Viaggiatore nella Prenotazione
 	}
 	
-	aggiornaCosto(double importo) {
+	public void aggiornaCosto(double importo) {
 		//modifica dell'importoTotale
+	}
+	
+	public void associaCliente(Cliente cliente) {
+		//associa la prenotazione con cliente
+	}
+	
+	public void associaPacchettoVacanza(PacchettoVacanza pacchettoVacanza) {
+		//associa la prenotazione con pacchettoVacanza
+	}
+	
+	public void associaViaggio(Viaggio viaggio) {
+		//associa la prenotazione con viaggio
+	}
+	
+	public void rimuoviViaggiatore(Viaggiatore viaggiatore) {
+		//rimuove un Viaggiatore dalla Prenotazione
 	}
 }
