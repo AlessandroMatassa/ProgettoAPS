@@ -5,32 +5,28 @@ Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole inserire nuovi pacchetti vacanza nei cataloghi
-Pre-condizioni: deve esistere almeno un catalogo
+Pre-condizioni: deve esistere almeno un catalogo e l' utente deve essere registrato come amministratore
 Post-condizioni: il pacchetto vacanza viene inserito in un catalogo
 Scenario Principale di Successo:
- 1. Il caso d’ uso inizia quando l’ attore utente si registra come amministratore del servizio
- 2. L’ amministratore visiona un catalogo a scelta
- 3. L’ amministratore seleziona l' opzione di aggiunta di un pacchetto vacanza nel catalogo
- 4. L’ amministratore inserisce tutti i dati del pacchetto vacanza
-    (costo, periodo di soggiorno, tipologia di viaggio,treno aereo o pullman, e l'alloggio, hotel a 3 o 4 stelle, numero persone) 
- 5. L'amministratore conferma l' inserimento di un pacchetto vacanza
- 6. Il pacchetto vacanza sara’ presente nel catalogo selezionato al punto 2
+ 1. L’ amministratore visiona un catalogo a scelta
+ 2. L’ amministratore seleziona l' opzione di aggiunta di un pacchetto vacanza nel catalogo
+ 3. L’ amministratore inserisce tutti i dati del pacchetto vacanza
+    (costo, periodo di soggiorno, alloggio (hotel a 3 o 4 stelle), viaggio) 
+ 4. L'amministratore conferma l' inserimento di un pacchetto vacanza
+ 5. Il pacchetto vacanza sara’ presente nel catalogo selezionato al punto 2
 Estensioni: 
-	1a. I dati della registrazione sono errati
-		1a.1 il sistema notifica che i dati sono errati
-		1a.2 L’ utente corregge i dati e ritorna al passo 1
-	1b. L’ utente non e’ registrato
-		1b.1 Il sistema notifica che l’ utente non e’ registrato
-		1b.2 l’ utente si registra
-	5a. I dati inseriti non sono validi (costo, periodo di soggiorno, tipologia di viaggio,treno aereo o pullman, e l'alloggio, hotel 	a 3 o 4 stelle)
-		5a.1 il sistema notifica che i dati non sono validi
-		5a.2 si ritorna al punto 4 (inserimento dei dati)
-	5b Il pacchetto vacanza e’ gia’ presente nel catalogo
-		5b.1. il sistema notifica della presenza di un duplicato
-		5b.2 si ritorna al punto 4 (inserimento dei dati)
-	6a. Il pacchetto vacanza non e' presente nel catalogo selezionato
-		6a.1 il sistema notifica dell fallimento nell' inserimento del pacchetto vacanza
-		6a.2 si riparte dal punto 3
+	3a. viaggio non esiste
+		3a.1 il sistema notifica che il viaggio che si vuole associare al pacchetto vacanza non esiste
+		3a.2 isi ritorno al punto 3 (inserimento dei dati)
+	3b. I dati inseriti non sono validi (costo, periodo di soggiorno, alloggio (hotel a 3 o 4 stelle), viaggio) 
+		3b.1 il sistema notifica che i dati non sono validi
+		3b.2 si ritorna al punto 3 (inserimento dei dati)
+	4b Il pacchetto vacanza e’ gia’ presente nel catalogo
+		4b.1. il sistema notifica della presenza di un duplicato
+		4b.2 si ritorna al punto 3 (inserimento dei dati)
+	5a. Il pacchetto vacanza non e' presente nel catalogo selezionato
+		5a.1 il sistema notifica dell fallimento nell' inserimento del pacchetto vacanza
+		5a.2 si riparte dal punto 2
 Extension Points: -
 Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
@@ -40,36 +36,30 @@ Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole modificare pacchetti vacanza nei cataloghi
-Pre-condizioni: -
+Pre-condizioni: l' utente e' registrato come amministratore
 Post-condizioni: il pacchetto vacanza viene correttamente modificato
 Scenario Principale di Successo:
- 1. Il caso d’ uso inizia quando l’ attore utente si registra come amministratore del servizio
- 2. L’ amministratore visiona un catalogo a scelta, ricercando il pacchetto vacanza desiderato
- 3. L’ amministratore seleziona l' opzione di modifica del pacchetto vacanza nel catalogo
- 4. L’ amministratore puo’ modificare i dati del pacchetto vacanza
-(costo, periodo di soggiorno, tipologia di viaggio,treno aereo o pullman, e l'alloggio, hotel a 3 o 4 stelle) 
- 5. L'amministratore conferma la modifica di un pacchetto vacanza
- 6. Il pacchetto vacanza sara’ presente nel catalogo selezionato al punto 2
- 7. il sistema invia all’ operatore l’ operazione di annullamento della prenotazione del pacchetto vacanza ad ogni Cliente che ha   effettuato la prenotazione del pacchetto vacanza,l’ operazione prevede un eventuale rimborso della caparra
+ 1. L’ amministratore visiona un catalogo a scelta, ricercando il pacchetto vacanza desiderato
+ 2. L’ amministratore seleziona l' opzione di modifica del pacchetto vacanza nel catalogo
+ 3. L’ amministratore puo’ modificare i dati del pacchetto vacanza
+(costo, periodo di soggiorno, alloggio (hotel a 3 o 4 stelle), viaggio)
+ 4. L'amministratore conferma la modifica di un pacchetto vacanza
+ 5. Il pacchetto vacanza sara’ presente nel catalogo selezionato al punto 1
+ 6. il sistema invia all’ operatore l’ operazione di annullamento della prenotazione del pacchetto vacanza ad ogni Cliente che ha   effettuato la prenotazione del pacchetto vacanza,l’ operazione prevede un eventuale rimborso della caparra
 Estensioni: 
-	1a. I dati della registrazione sono errati
-		1a.1 il sistema notifica che i dati sono errati
-		1a.2 L’ utente corregge i dati e ritorna al passo 1
-	1b. L’ utente non e’ registrato
-		1b.1 Il sistema notifica che l’ utente non e’ registrato
-		1b.2 l’ utente si registra
-	5a. I dati inseriti non sono validi (costo, periodo di soggiorno, tipologia di viaggio,treno aereo o pullman, e l'alloggio, hotel 	a 3 o 4 stelle, numero persone)
-		5a.1 il sistema notifica che i dati non sono validi
-		5a.2 si ritorna al punto 4 (inserimento dei dati)
-	5b Il pacchetto vacanza e’ gia’ presente nel catalogo
-		5b.1. il sistema notifica della presenza di un duplicato
-		5b.2 si ritorna al punto 4 (inserimento dei dati)
-	6a. Il pacchetto vacanza non e' stato modificato
-		6a.1 il sistema notifica dell fallimento nella modifica del pacchetto vacanza
-		6a.2 si riparte dal punto 3
-	7a. L' annullamento della prenotazione non ha avuto successo
-		7a.1 l' operatore notifiche che la prenotazione non ha avuto successo
-		7a.2 si riprova il punto 7 finche' non ha successo
+
+	4a. I dati inseriti non sono validi (costo, periodo di soggiorno, tipologia di viaggio,treno aereo o pullman, e l'alloggio, hotel 	a 3 o 4 stelle, numero persone)
+		4a.1 il sistema notifica che i dati non sono validi
+		4a.2 si ritorna al punto 3 (inserimento dei dati)
+	4b. Il pacchetto vacanza e’ gia’ presente nel catalogo
+		4b.1. il sistema notifica della presenza di un duplicato
+		4b.2 si ritorna al punto 3 (inserimento dei dati)
+	5a. Il pacchetto vacanza non e' stato modificato
+		5a.1 il sistema notifica dell fallimento nella modifica del pacchetto vacanza
+		5a.2 si riparte dal punto 3
+	6a. L' annullamento della prenotazione non ha avuto successo
+		6a.1 l' operatore notifiche che la prenotazione non ha avuto successo
+		6a.2 si riprova il punto 6 finche' non ha successo
 Extension Points: -
 Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
@@ -79,29 +69,23 @@ Portata: Sistema software basato sul web per agenzie di viaggi
 Livello: Obiettivo Utente
 Attore Primario: Amministratore
 Parti interessate e interessi: L’ amministratore vuole eliminare pacchetti vacanza nei cataloghi
-Pre-condizioni: -
+Pre-condizioni: l' utente e' registrato come amministratore
 Post-condizioni: il pacchetto vacanza viene eliminato dal catalogo
 Scenario Principale di Successo:
  1. Il caso d’ uso inizia quando l’ attore utente si registra come amministratore del servizio
  2. L’ amministratore visiona un catalogo a scelta,  ricercando il pacchetto vacanza desiderato
  3. L’ amministratore seleziona l' opzione di eliminazione di un pacchetto vacanza nel catalogo
  4. L'amministratore conferma l' eliminazione di un pacchetto vacanza
- 5. Il pacchetto vacanza selezionato al punto 2 sara’ eliminato
+ 5. Il pacchetto vacanza selezionato al punto 1 sara’ eliminato
  6. il sistema invia all’ operatore l’ operazione di annullamento della prenotazione del pacchetto vacanza ad ogni Cliente che ha effettuato la prenotazione del pacchetto vacanza,l’ operazione prevede un eventuale rimborso della caparra
 
 Estensioni: 
-	1a. I dati della registrazione sono errati
-		1a.1 il sistema notifica che i dati sono errati
-		1a.2 L’ utente corregge i dati e ritorna al passo 1
-	1b. L’ utente non e’ registrato
-		1b.1 Il sistema notifica che l’ utente non e’ registrato
-		1b.2 l’ utente si registra
-	5a. Il pacchetto vacanza non e’ stato correttamente eliminato
-		5a.1 il sistema notifica che il pacchetto vacanza non e’ stato correttamente eliminato
-		5a.2 si ritorna al punto 3 (selezione del pacchetto da eliminare)
-	7a. L' annullamento della prenotazione non ha avuto successo
-		7a.1 l' operatore notifiche che la prenotazione non ha avuto successo
-		7a.2 si riprova il punto 7 finche' non ha successo
+	4a. Il pacchetto vacanza non e’ stato correttamente eliminato
+		4a.1 il sistema notifica che il pacchetto vacanza non e’ stato correttamente eliminato
+		4a.2 si ritorna al punto 2 (selezione del pacchetto da eliminare)
+	6a. L' annullamento della prenotazione non ha avuto successo
+		6a.1 l' operatore notifiche che la prenotazione non ha avuto successo
+		6a.2 si riprova il punto 6 finche' non ha successo
 Extension Points: -
 Requisiti Speciali: -
 Frequenza di ripetizione: Potrebbe essere quasi ininterrotta
