@@ -5,12 +5,22 @@ output_file="commits.txt"
 # Nome del file di log per le righe saltate
 skipped_log="skipped_commits.log"
 
+# Variabile per il filtro utente
+user=$1
+
 # Cancella il contenuto del file di output e del file di log se esistono
 > "$output_file"
 > "$skipped_log"
 
+# Costruisci il comando git log con il filtro utente
+git_command="git log --pretty=format:'%H|%an|%s|%ad|%b' --date=iso"
+
+if [ -n "$user" ]; then
+  git_command+=" --author='$user'"
+fi
+
 # Estrarre le commit e formattarle
-git log --pretty=format:'%H|%an|%s|%ad|%b' --date=iso > temp_commits.txt
+eval $git_command > temp_commits.txt
 
 # Utilizzare Python per formattare le date e gestire le descrizioni
 python3 - <<END
