@@ -1,6 +1,7 @@
 Lab 1:
 	Generale:
 		- Caricato un file vecchio per sbaglio
+
 Lab 2:
 	Generale:
 		- Caricato file corretto
@@ -13,7 +14,7 @@ Lab 2:
 			nel modello di dominio.
 
 Lab 3:
-Abbiamo corretto i diagrammi di attività consegnati nel lab 2 e modificato alcuni contratti.
+	Abbiamo corretto i diagrammi di attività e SSD consegnati nel lab 2 e modificato alcuni contratti.
 	Marco:
 		- Correzione del SSD RegistraUtente: rimossi lifeline Cliente
 			e MetodoDiPagamento.
@@ -21,3 +22,960 @@ Abbiamo corretto i diagrammi di attività consegnati nel lab 2 e modificato alcu
 	Maurizio:
 		- Modificato nel CUD le estensioni, rimuovendo ridondanze e rendendoli più leggibili.
 		
+
+
+-- ELENCO COMMITS --
+------------------------
+Lab 1 (08/05 al 15/05):
+
+	Alessandro Matassa:
+		(d624553) - AlessandroMatassa
+		2024.05.15 alle 13:34:53
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(0ac09f3) - AlessandroMatassa
+		2024.05.15 alle 13:33:21
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		N/A
+
+
+		(2a24b5d) - AlessandroMatassa
+		2024.05.08 alle 17:25:14
+		Titolo: Create Trips & Travels.vpp
+		Descrizione:
+		Diagramma casi d'uso
+
+
+		(1beb71d) - AlessandroMatassa
+		2024.05.08 alle 17:18:47
+		Titolo: Initial commit
+		Descrizione:
+		N/A
+
+
+	Elia Strazzeri:
+		(55a4275) - EliaStrazzeri
+		2024.05.15 alle 13:55:11
+		Titolo: Update Caso d' uso dettagliato - Inserimento, modifica o cancellazione di un pacchetto vacanza.txt
+		Descrizione:
+		aggiunta nome e cognome
+
+
+		(6d20c3f) - EliaStrazzeri
+		2024.05.15 alle 11:42:35
+		Titolo: caso d' uso dettagliato elia
+		Descrizione:
+		N/A
+
+
+	Marco Mandelli:
+		(4cd14b3) - Marco Mandelli
+		2024.05.15 alle 13:53:06
+		Titolo: Refactor user registration process for responsive UI and email verification
+		Descrizione:
+		N/A
+
+
+		(33536ab) - Marco Mandelli
+		2024.05.15 alle 13:52:09
+		Titolo: Add GestioneRichieste.txt
+		Descrizione:
+		N/A
+
+
+		(7a13f7a) - Marco Mandelli
+		2024.05.15 alle 13:26:45
+		Titolo: Add .txt
+		Descrizione:
+		N/A
+
+
+		(b402ecd) - Marco Mandelli
+		2024.05.15 alle 13:23:57
+		Titolo: Delete Caso d’uso dettagliato - Registrazione Utente
+		Descrizione:
+		N/A
+
+
+		(9c08677) - Marco Mandelli
+		2024.05.15 alle 13:23:18
+		Titolo: Edit RegistrazioneUtente.txt
+		Descrizione:
+		N/A
+
+
+		(ff1f903) - Marco Mandelli
+		2024.05.13 alle 16:34:20
+		Titolo: Create Caso d'uso dettagliato - Registrazione Utente
+		Descrizione:
+		N/A
+
+
+		(5832b46) - Marco Mandelli
+		2024.05.10 alle 15:20:40
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(1e4e080) - Marco Mandelli
+		2024.05.10 alle 15:20:24
+		Titolo: Update Stato progetto.txt
+		Descrizione:
+		N/A
+
+
+		(be3ee6b) - Marco Mandelli
+		2024.05.10 alle 15:06:36
+		Titolo: Create Stato progetto.txt
+		Descrizione:
+		Inseriti dubbi
+
+
+	Maurizio Zheng Lei:
+		(b4f6619) - LMaurizioZ
+		2024.05.13 alle 20:51:45
+		Titolo: Create Caso d'uso dettagliato - EffettuaPrenotazione.txt
+		Descrizione:
+		Create Caso d'uso dettagliato - EffettuaPrenotazione
+
+
+		(1dff8fe) - LMaurizioZ
+		2024.05.10 alle 15:19:45
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Creazione modello dominio
+
+------------------------
+Lab 2 (15/05 al 22/05):
+
+	Alessandro Matassa:
+		(e81423e) - AlessandroMatassa
+		2024.05.22 alle 13:50:33
+		Titolo: spostato file di cartella
+		Descrizione:
+		N/A
+
+
+		(7da4b99) - AlessandroMatassa
+		2024.05.22 alle 13:47:47
+		Titolo: diaramma di attivita modifica prenotazione
+		Descrizione:
+		N/A
+
+
+		(a1de895) - AlessandroMatassa
+		2024.05.22 alle 12:48:58
+		Titolo: ridotti gli SSD di gestione-Richieste da 4 a 2 per una maggiore chiarezza e aggiornato il contratto di richiestaModifica
+		Descrizione:
+		N/A
+
+
+		(8183835) - AlessandroMatassa
+		2024.05.22 alle 12:00:52
+		Titolo: aggiornati gli ssd
+		Descrizione:
+		N/A
+
+
+		(370f6b4) - AlessandroMatassa
+		2024.05.22 alle 11:48:19
+		Titolo: aggiunti contratti per il caso d'uso gestione richieste
+		Descrizione:
+		N/A
+
+
+		(19388a3) - AlessandroMatassa
+		2024.05.22 alle 10:43:29
+		Titolo: aggiunti 3 SSD sulla gestioneRichieste
+		Descrizione:
+		N/A
+
+
+		(439a28b) - AlessandroMatassa
+		2024.05.15 alle 16:06:53
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(9587a45) - AlessandroMatassa
+		2024.05.15 alle 16:06:49
+		Titolo: Create .gitignore
+		Descrizione:
+		N/A
+
+
+	Elia Strazzeri:
+		(18b7734) - EliaStrazzeri
+		2024.05.21 alle 17:43:51
+		Titolo: incorporazione in Trips & travels
+		Descrizione:
+		N/A
+
+
+		(6dacb12) - EliaStrazzeri
+		2024.05.21 alle 16:26:37
+		Titolo: Add files via upload
+		Descrizione:
+		N/A
+
+
+	Marco Mandelli:
+		(abcd0b4) - Marco Mandelli
+		2024.05.22 alle 13:59:37
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Aggiornato AD RegistrazioneUtente
+
+
+		(838746a) - Marco Mandelli
+		2024.05.22 alle 03:47:37
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Completato "SSD RegistrazioneUtente - Scenario principale"
+		Creato "AD RegistrazioneUtente"
+
+
+		(8a3f8f3) - Marco Mandelli
+		2024.05.22 alle 03:36:50
+		Titolo: Add Contratti - creaNuovoCliente e associaMetodoPagamento.txt
+		Descrizione:
+		Scritto contratti CO1 e CO2.
+
+
+		(39ddf65) - Marco Mandelli
+		2024.05.22 alle 02:33:46
+		Titolo: Update Contratti, aggiungiPacchetto e rimuoviPacchetto.txt
+		Descrizione:
+		Aggiunto nome contributore.
+
+
+		(9a9a36f) - Marco Mandelli
+		2024.05.22 alle 02:33:11
+		Titolo: Update Contratti effettuaNuovaPrenotazione e inserisciDatiForm.txt
+		Descrizione:
+		Aggiunto nome contributore.
+
+
+		(a675b79) - Marco Mandelli
+		2024.05.22 alle 02:27:27
+		Titolo: Update Stato progetto.txt
+		Descrizione:
+		Aggiunto elementi "DA CHIARIRE"
+		Spostato "MODIFICHE" sotto "CONSEGNA LAB 2"
+		Corretto indentazioni per rimanere entro le 80 colonne
+
+
+		(9fb1f1f) - Marco Mandelli
+		2024.05.21 alle 20:01:51
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Aggiornato SSD RegistrazioneUtente - Scenario principale
+
+
+		(8974c76) - Marco Mandelli
+		2024.05.21 alle 19:28:49
+		Titolo: Create Glossario.txt
+		Descrizione:
+		Aggiunta termini:
+		Agenzia,
+		Viaggiatore.
+
+
+		(d08737b) - Marco Mandelli
+		2024.05.21 alle 19:17:14
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		SSD EffettuaPrenotazione:
+		Modifica nomi parametri.
+		Aggiunta operazione "eseguiPagamento(...)".
+		Aggiunta loop su "inviaDatiPartecipante(...)
+		Modifica parametri di "inviaDatiPrenotazione(...)".
+		Correzione nome attributo in PacchettoVacanza.
+
+
+		(5131f62) - Marco Mandelli
+		2024.05.21 alle 18:12:34
+		Titolo: Create folder Lab 2 and move Contratti
+		Descrizione:
+		Creato cartella Lab 2 e spostato file txt dei contratti
+
+
+		(8248a3d) - Marco Mandelli
+		2024.05.21 alle 14:15:19
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Creato "SSD RegistrazioneUtente - Scenario principale"
+		Corretto typos in "SSD EffettuaPrenotazione - Scenario principale", "AC EffettuaPrenotazione"
+
+
+		(af10ca4) - Marco Mandelli
+		2024.05.21 alle 13:46:51
+		Titolo: Update RegistrazioneUtente.txt
+		Descrizione:
+		Rimosso "Generico" da "Utente Generico" nello step 7. Questa modifica aumenta la chiarezza e la coerenza nel caso d'uso.
+
+
+		(46081e8) - Marco Mandelli
+		2024.05.20 alle 16:36:13
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Ordinato graficamente Diagramma casi d'uso e Modello di dominio
+		Corretto nome Diagramma casi d'uso (era "Diagramma uso webApp")
+
+
+		(dc79d4d) - Marco Mandelli
+		2024.05.15 alle 16:23:38
+		Titolo: Update project status document with delivery information
+		Descrizione:
+		This commit updates the "Stato progetto.txt" document to include information about the project delivery for Lab 1 and Lab 2. It clarifies the confusion regarding the generalization of actors in the use case diagram and their representation in the domain model. It also addresses the question about user searches and catalogs, suggesting that catalogs could be a web page with a list of packages.
+
+
+		(c94d830) - Marco Mandelli
+		2024.05.15 alle 16:09:56
+		Titolo: Update .gitignore
+		Descrizione:
+		N/A
+
+
+		(2e0c43e) - Marco Mandelli
+		2024.05.15 alle 15:54:58
+		Titolo: Create folder and rename .txt files
+		Descrizione:
+		Create folder "Lab 1"
+		Rename .txt files including "Caso d'uso dettagliato" to "CUD"
+
+
+	Maurizio Zheng Lei:
+	(cfc3a4c) - LMaurizioZ
+	2024.05.21 alle 16:54:54
+	Titolo: Update Stato progetto.txt
+	Descrizione:
+	- Aggiunte modifiche fatte (e tolte dalla fine del txt del contratto)
+
+
+	(c75ac2e) - LMaurizioZ
+	2024.05.21 alle 16:48:59
+	Titolo: Create Contratti effettuaNuovaPrenotazione e inserisciDatiForm.txt
+	Descrizione:
+	N/A
+
+
+	(a003894) - LMaurizioZ
+	2024.05.21 alle 16:40:11
+	Titolo: Update Trips & Travels.vpp
+	Descrizione:
+	Modello di Dominio:
+	- Aggiunto classe Viaggiatore, e collegata con Prenotazione;
+	- Rimosso attributo "numero persone" da Prenotazione;
+	- Sistemati i nomi delle classi ed attributi come parole singole.
+
+	SSD EffettuaPrenotazione:
+	- Cambiati i parametri di inserisciDatiForm (dati => nome, cognome, dataDiNascita, codiceFiscale).
+
+	AD EffettuaPrenotazione:
+	- Cambiata la parte dell'inserimento dei dati per la form rendendolo più specifico;
+	- Cambiato il nome (AC EffettuaPrenotazione => AD EffettuaPrenotazionePacchettoVacanza).
+
+
+	(c78c238) - LMaurizioZ
+	2024.05.19 alle 23:23:18
+	Titolo: Update CUD - EffettuaPrenotazione.txt
+	Descrizione:
+	-Aggiunto gli attori "Istituto di credito" e "Agenzia di viaggi/vacanza" tra le parti interessate e interessi.
+	-Modificato scenario principale punto 3) (esplicitato che i dati del form includono il numero di persone).
+	-Modificato scenario principale punto 4) (Sistema gestisce pagamento => Sistema invia info a istituto di credito).
+	-Aggiunti cognome, nome e matricola.
+
+
+	(a7f16c2) - LMaurizioZ
+	2024.05.19 alle 22:54:24
+	Titolo: Update "Trips & Travels.vpp" and "CUD - EffettuaPrenotazione.txt"
+	Descrizione:
+	-Riordinato SSD EffettuaPrenotazione (dal testo, il pagamento della caparra avviene prima del riepilogo), e piccole modifiche varie.
+	-Aggiunta operazione a Sistema "confermaRiepilogo()" per confermare la prenotazione dopo il riepilogo.
+	-"Raddrizzamento" degli elementi della AC EffettuaPrenotazione.
+	-Aggiunto a CUD - EffettuaPrenotazione gli attori "Istituto di credito" e "Agenzia di viaggi/vacanza" tra le parti interessate e interessi, e modificato punto 4) del scenario principale (Sistema gestisce pagamento => Sistema invia info a istituto di credito).
+
+
+	(176e126) - LMaurizioZ
+	2024.05.15 alle 22:01:49
+	Titolo: Update Trips & Travels.vpp
+	Descrizione:
+	Aggiunto SSD EffettuaPrenotazione ed AC EffettuaPrenotazione.
+	Aggiunte anche le classi Sistema, IstitutoDiCredito, e Agenzia, con dei loro metodi.
+	Aggiunto attributo CCV a MetodiDiPagamento nel diagramma di dominio.
+
+
+	(2a377e9) - LMaurizioZ
+	2024.05.15 alle 15:39:15
+	Titolo: Delete Trips & Travels con modello di dominio non ordinato.vpp
+	Descrizione:
+	N/A
+
+
+	(a743b24) - LMaurizioZ
+	2024.05.15 alle 15:38:21
+	Titolo: Update Trips & Travels.vpp
+	Descrizione:
+	N/A
+
+
+	(1ca3624) - LMaurizioZ
+	2024.05.15 alle 14:10:51
+	Titolo: Create Trips & Travels con modello di dominio non ordinato.vpp
+	Descrizione:
+	Con modello di dominio (non ordinato)
+
+------------------------
+Lab 3 (22/05 al 29/05):
+
+	Alessandro Matassa:
+		(e9ed1cc) - AlessandroMatassa
+		2024.05.29 alle 02:22:56
+		Titolo: Update contrattiGestioneRichieste.txt
+		Descrizione:
+		aggiornati i contratti
+
+
+		(4685df1) - AlessandroMatassa
+		2024.05.29 alle 02:22:44
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		update al diagramma delle classi software
+		creati SD eliminaPrenotazione e modificaPrenotazione
+		update al package diagram
+
+
+		(d683d90) - AlessandroMatassa
+		2024.05.24 alle 14:43:14
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		N/A
+
+
+		(84d224a) - AlessandroMatassa
+		2024.05.24 alle 13:15:56
+		Titolo: update
+		Descrizione:
+		ultimato diagramma delle attività e modificato il diagramma dei casi d'uso
+
+
+		(1c4327b) - AlessandroMatassa
+		2024.05.24 alle 11:53:30
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(cda03d7) - AlessandroMatassa
+		2024.05.24 alle 11:53:17
+		Titolo: finito activity status modificaPrenotazione
+		Descrizione:
+		N/A
+
+
+	Elia Strazzeri:
+		(96f432f) - EliaStrazzeri
+		2024.05.29 alle 11:17:49
+		Titolo: Add files via upload
+		Descrizione:
+		aggiornamento vpp con SD aggiungiPacchetto e SD eliminaPacchetto
+
+
+		(e2d291a) - EliaStrazzeri
+		2024.05.27 alle 17:57:52
+		Titolo: Add files via upload
+		Descrizione:
+		correzione nome vpp, correzione SSD
+
+
+		(2c1f5d2) - EliaStrazzeri
+		2024.05.27 alle 17:37:19
+		Titolo: Add files via upload
+		Descrizione:
+		N/A
+
+
+		(83c8e3d) - EliaStrazzeri
+		2024.05.27 alle 00:05:05
+		Titolo: Add files via upload
+		Descrizione:
+		N/A
+
+
+	Marco Mandelli:
+		(302141c) - Marco Mandelli
+		2024.05.29 alle 13:04:54
+		Titolo: Sostituito contratto CO1 e refactor generale
+		Descrizione:
+		N/A
+
+
+		(5d94329) - Marco Mandelli
+		2024.05.29 alle 02:28:17
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(db3c5a4) - Marco Mandelli
+		2024.05.29 alle 02:28:09
+		Titolo: chore: Correct activity diagrams and modify contracts in Lab 2
+		Descrizione:
+		N/A
+
+
+		(5d2f07c) - Marco Mandelli
+		2024.05.28 alle 23:57:38
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Creato SD inserisciDatiRegistrazione
+		- Creato SD effettuaRegistrazioneUtente
+
+		Modello di dominio - WebApp:
+			- Aggiunto attributo importoTotale
+			- Rimossa associazione tra Rimborso e Prenotazione
+			- Aggiunta associazione tra Rimborso e Pagamento
+
+		Diagramma delle classi SW:
+			- Creata classe ClienteController
+			- ClienteController: rimosso parametro conferma_password
+			- Creata classe ClienteCreator
+			- Creato package Controller
+			- Associazioni varie
+
+		Rinominata operazione di sistema RichiedeModifica in richiediModifica
+
+		Classe Sistema:
+			- Rinominati parametri in operazione inserisciDatiRegistrazione(...)
+			- Aggiunto parametro dataDiNascita in operazione inserisciDatiRegistrazione(...)
+			- Rimosso parametro conferma_password in operazione inserisciDatiRegistrazione(...)
+			- Aggiunto parametro importo in op. eliminaPrenotazione(...)
+			- Rinominato parametro costo in operazione modificaPrenotazione(...)
+
+		AD RegistrazioneUtente:
+			- Aggiunta action Inserisci data di nascita
+
+		SSD GestisciRichiesta
+			- Modificato reply message
+
+		Classe IstitutoDiCredito:
+			- Rinominato parametro costo in op. richiediRimborso(...)
+
+
+		(2bd309a) - Marco Mandelli
+		2024.05.28 alle 19:38:04
+		Titolo: Refactor inserisciDatiRegistrazione per rimuovere parametro conferma_password
+		Descrizione:
+		N/A
+
+
+		(324e21b) - Marco Mandelli
+		2024.05.28 alle 17:57:44
+		Titolo: Rename Contratti - creaNuovoCliente e associaMetodoPagamento.txt
+		Descrizione:
+		Rinominato con nomi contratti nuovi
+
+
+		(a529334) - Marco Mandelli
+		2024.05.28 alle 17:45:28
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(7b75172) - Marco Mandelli
+		2024.05.28 alle 17:45:17
+		Titolo: Update CO2 contract to verificaRiutilizzoEmail(email)
+		Descrizione:
+		N/A
+
+
+		(791b133) - Marco Mandelli
+		2024.05.28 alle 16:21:06
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(4ef46a7) - Marco Mandelli
+		2024.05.28 alle 16:15:06
+		Titolo: Add inserisciDatiRegistrazione operation to CO1 contract
+		Descrizione:
+		Sostituito CO1 per rispecchiare la correzione dell'SSD EffettuaRegistrazione
+
+
+		(945a769) - Marco Mandelli
+		2024.05.28 alle 13:09:37
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Aggiustamenti grafici a:
+			- Diagramma casi d'uso webApp
+			- AD RegistrazioneUtente
+
+
+		(cb4dea0) - Marco Mandelli
+		2024.05.24 alle 15:14:46
+		Titolo: Update MODIFICHE e Stato progetto.txt
+		Descrizione:
+		N/A
+
+
+		(93d6f31) - Marco Mandelli
+		2024.05.23 alle 14:29:20
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		AD RegistrazioneUtente:
+		miglioramenti grafici
+
+
+		(7148a2f) - Marco Mandelli
+		2024.05.22 alle 17:58:38
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Semplificato e corretto SSD RegistrazioneUtente - Scenario principale:
+			Eliminate lifeline c (Cliente) e mp (Metodo di pagamento)
+		Semplificato e corretto AD RegistrazioneUtente:
+			Eliminate swimlane c (Cliente) e mp (Metodo di pagamento)
+			Completato il diagramma
+
+
+	Maurizio Zheng Lei:
+		(685c4f8) - LMaurizioZ
+		2024.05.29 alle 13:18:16
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(6f36554) - LMaurizioZ
+		2024.05.29 alle 13:18:13
+		Titolo: Update Contratti, aggiungiPacchetto e rimuoviPacchetto.txt
+		Descrizione:
+		- Cambiati i contratti in modo conforme agli SSD InserisciPacchettoVacanza e RimuoviPacchettoVacanza.
+		- Rimossi riferimenti ad Amministratore e Cliente nelle pre/post-condizioni, e aggiunta inizializzazione degli attributi con valori passati.
+
+
+		(afc87c7) - LMaurizioZ
+		2024.05.29 alle 13:12:26
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Diagramma classi SW:
+		-- Colorati le classi e package.
+		-- Aggiunto CatalogoController, Catalogo e PacchettoVacanza, con i loro metodi.
+		-- Agginte cardinalità mancanti, sistemate le associazioni e dipendenze.
+		-- Suddivisi i Controller in due package SistemaController e UtenteController.
+		-- Aggiunti package Logging e Sicurezza a Services, e aggiunti rispettivamente le classi Database e CriptatorePassword.
+
+		- Architettura Logica:
+		-- Aggiunti package Logging e Sicurezza a Services.
+		-- Cambiati i package di Controller a SistemaController e UtenteController.
+		-- Aggiunte dipendenze.
+		-- Modificati i colori.
+
+		- SD inserisciPacchetto:
+		-- Cambiati nomi in modo conforme al SSD InserisciPacchettoVacanza e contratti.
+		-- Fixato le classi e le operazioni in modo che riferivano a classi e operazioni effettive.
+
+		- SD rimuoviPacchetto:
+		-- -- Cambiati nomi in modo conforme al SSD RimuoviPacchettoVacanza e contratti.
+		-- Fixato le classi e le operazioni in modo che riferivano a classi e operazioni effettive.
+
+
+		(59420d0) - LMaurizioZ
+		2024.05.29 alle 00:10:58
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Diagramma classi SW: creato PrenotazioneCreator.
+		- SD effettuaNuovaPrenotazione: inserito PrenotazioneCreator.
+		- SD inserisciDatiForm: inserito PrenotazioneCreator.
+
+
+		(7d75d76) - LMaurizioZ
+		2024.05.28 alle 17:35:25
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Creato metodo "aggiungiViaggiatore()" a "Prenotazione" in diagramma delle classi SW.
+		- Aggiunto self message "aggiungiViaggiatore" a "Prenotazione" in SD inserisciDatiForm.
+		- Aggiunto attributo "password" a classe "Cliente" in modello di dominio.
+
+
+		(e21fc64) - LMaurizioZ
+		2024.05.28 alle 17:14:28
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- SD effettuaNuovaPrenotazione creato.
+		- SD inserisciDatiForm creato.
+		- Classe PrenotazioneController creato da Sistema, e rimossi metodi non pertinenti.
+		- Bozza di Diagramma classi SW creata.
+		- Bozza di Architettura logica creata.
+
+
+		(bd6d0d2) - LMaurizioZ
+		2024.05.28 alle 15:47:56
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- SSD EffettuaRegistrazione - Scenario principale: modificati nomi parametri inserisciDatiRegistrazione(...).
+		- SSD EffettuaPrenotazione - Scenario Principale: aggiunto eseguiPagamento(...) alla fine, e spaziato meglio le operazioni.
+
+
+		(417f723) - LMaurizioZ
+		2024.05.27 alle 19:21:58
+		Titolo: Update CUD - Inserimento, modifica o cancellazione di un pacchetto vacanza.txt
+		Descrizione:
+		Corretto i nomi dei casi d'uso.
+
+
+		(0c50b6e) - LMaurizioZ
+		2024.05.27 alle 19:21:26
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Diagramma casi d'uso: aggiornato caso d'uso AggiornaCatalogo (rimosso e sostituito con 3 casi d'uso Inserisci/Modifica/RimuoviPacchettoVacanza).
+		- Modello di dominio: sistemate le cardinalità invertendole.
+		- SSD: sistemati i nomi dei SSD riguardo i pacchetti vacanza, e l'utilizzo effettivo della classe Sistema e dei suoi metodi; inoltre rimosso paramentro "numero persone" da inserisciPacchetto e aggiornaPacchetto.
+		- Rimosso file "Trips & Travels (4).vpp"
+
+
+		(61bb9f8) - LMaurizioZ
+		2024.05.27 alle 17:24:16
+		Titolo: Restore Trips & Travels.vpp
+		Descrizione:
+		Ripristinato file "vecchio" dopo sovrascrittura con una versione non aggiornata.
+
+
+		(52afd34) - LMaurizioZ
+		2024.05.24 alle 16:53:08
+		Titolo: Fix use case names
+		Descrizione:
+		Adeguati i nomi dei casi d'uso nel CUD e SSD secondo il Diagramma dei casi d'uso (GestioneRichieste => GestisciRischiesta, RegistrazioneUtente => EffettuaRegistrazione)
+
+
+		(24e8083) - LMaurizioZ
+		2024.05.24 alle 16:15:42
+		Titolo: Update COSE DA SISTEMARE.txt
+		Descrizione:
+		N/A
+
+
+		(8ed8417) - LMaurizioZ
+		2024.05.24 alle 16:11:42
+		Titolo: Aggiustamenti vari
+		Descrizione:
+		- CUD - EffettuaPrenotazione: adeguata la portata in modo più preciso.
+		- CUD - Inserimento, modifica o cancellazione di un pacchetto vacanza: adeguata la portata in modo più preciso e fixato typo.
+		- Contratti effettuaNuovaPrenotazione e inserisciDatiForm: inserito una postcondizione a effettuaNuovaPrenotazione
+
+
+		(6ef90cc) - LMaurizioZ
+		2024.05.24 alle 16:08:47
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- SSD EffettuaPrenotazionePacchettoVacanza: associati ad ogni Send signal un solo Accept event, e colorati per migliore lettura.
+		- Modello di dominio: tolti attributi non utilizzati (Cliente.telefono, Cliente.codiceFiscale).
+		- Modello di dominio: aggiunto attributo codicePrenotazione a Prenotazione.
+		- AD AggiornaCatalogo: dato un nome all'AD.
+
+
+		(c6f5c91) - LMaurizioZ
+		2024.05.24 alle 10:51:29
+		Titolo: Aggiunta file logs
+		Descrizione:
+		COSE DA SISTEMARE: contiene gli errori nel file.
+
+		MODIFICHE: contiene le modifiche fatte (aggiornare quando necessario)
+
+
+		(8085221) - LMaurizioZ
+		2024.05.24 alle 10:42:47
+		Titolo: Update CUD - EffettuaPrenotazione.txt
+		Descrizione:
+		Aggiornate le estensioni, rimuovendo ridondanze e migliorata la leggibilità
+
+------------------------
+Lab 4 (29/05 al 05/06):
+
+	Alessandro Matassa:
+		(0a97599) - AlessandroMatassa
+		2024.05.31 alle 13:25:58
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		conclusa macchina a stati gestione richieste
+
+
+		(49d730f) - AlessandroMatassa
+		2024.05.30 alle 17:47:30
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		iniziato macchina a stati della gestione richieste ma ancora non concluso
+
+
+		(557297b) - AlessandroMatassa
+		2024.05.30 alle 17:03:55
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		creato oggetto richiestaDiModifica nel modello di Dominio, aggiornati gli SSD relativi ai rimborsi e alle modifiche
+		aggiunta la richiestaDiModifica nel diagramma delle classi software
+
+
+	Elia Strazzeri:
+		(6093591) - EliaStrazzeri
+		2024.06.02 alle 17:12:20
+		Titolo: Delete backup trips & travels
+		Descrizione:
+		N/A
+
+
+		(d88f7b9) - EliaStrazzeri
+		2024.06.02 alle 17:11:06
+		Titolo: Merge branch 'main' of https://github.com/AlessandroMatassa/ProgettoAPS
+		Descrizione:
+		N/A
+
+
+		(aa3aacc) - EliaStrazzeri
+		2024.06.02 alle 12:27:11
+		Titolo: Create Trips & Travels.vpp.bak_000f
+		Descrizione:
+		N/A
+
+
+	Marco Mandelli:
+		(1233e97) - Marco Mandelli
+		2024.06.02 alle 16:28:51
+		Titolo: Update extract_commits.sh to filter commits by user
+		Descrizione:
+		N/A
+
+
+		(c19bdaa) - Marco Mandelli
+		2024.06.02 alle 16:16:44
+		Titolo: Create extract_commits.sh
+		Descrizione:
+		N/A
+
+
+		(178c839) - Marco Mandelli
+		2024.05.30 alle 13:37:49
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Diagramma classi SW:
+		- Sistemato il posizionamento delle classi per una migliore leggibilità
+
+
+		(44afdae) - Marco Mandelli
+		2024.05.30 alle 03:26:52
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		Diagramma classi SW:
+		- Sistemato il posizionamento delle classi per una migliore leggibilità
+
+
+	Maurizio Zheng Lei:
+		(9281f7e) - LMaurizioZ
+		2024.05.31 alle 00:55:40
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- SSD GestisciRichiesta:
+		-- Modificati i parametri di "modificaPrenotazione(...)" rendendolo congruo al suo utilizzo altrove (richiestaDiModifica -> codicePrenotazione, viaggiatore, importo).
+		-- Allungato il loop in modo che comprendesse effettivamente l'operatore.
+
+
+		(71b6694) - LMaurizioZ
+		2024.05.31 alle 00:45:03
+		Titolo: Update Prenotazione.java
+		Descrizione:
+		Rimossi e aggiunti attributi e metodi secondo il Diagramma classi SW, e sistemato la visibilità.
+
+
+		(f002ec6) - LMaurizioZ
+		2024.05.31 alle 00:29:48
+		Titolo: Update Contratti effettuaNuovaPrenotazione e inserisciDatiForm.txt
+		Descrizione:
+		Rimosso formazione di collegamento nelle post condizioni di "inserisciDatiForm" perchè fatto in un altra operazione.
+
+
+		(c745713) - LMaurizioZ
+		2024.05.31 alle 00:29:03
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Sistema:
+		-- Aggiunti parametri "cliente" e "pacchettoVacanza" in metodo "effettuaNuovaPrenotazione(...)", per avere i valori per le assocciazioni nel "SSD EffettuaPrenotazione" e SD "effettuaNuovaPrenotazione".
+		-- Aggiunto metodo "aggiungiViaggiatore(viaggiatore)".
+
+		- Diagramma classi SW:
+		-- Creati ViaggiatoreController e ViaggiatoreCreator, e collegati.
+		-- Rimosso "inserisciDatiForm(...)" da PrenotazioneController e classi dipendenti.
+		-- Aggiunti parametri "cliente" e "pacchettoVacanza" in metodo "effettuaNuovaPrenotazione(...)" in PrenotazioneController e classi associate.
+		-- Aggiunto metodo "rimuoviViaggiatore(...)" a PrenotazioneController e classi associate.
+		-- Aggiunto parametro "status" a metodo "aggiornaStatus(...)" in Prenotazione.
+
+		- SSD EffettuaPrenotazione:
+		-- Aggiunti parametri "cliente" e "pacchettoVacanza" in metodo "effettuaNuovaPrenotazione(...)".
+		--Aggiunto selfmessage a Sistema "aggiungiViaggiatore(...)" per l'associazione tra Viaggiatore e Prenotazione.
+
+		- SD effettuaNuovaPrenotazione:
+		-- Aggiunti messaggi "associaCliente(...)" e "assocciaPacchettoVacanza(...)".
+
+		-SD inserisciDatiForm:
+		-- Cambiati riferimenti lifeline da Prenotazione a Viaggiatore.
+		-- Rimosso lifeline Prenotazione e messaggi connessi.
+
+		- SM Prenotazione:
+		-- Cambiato nomi di vari stati (Pronta -> inPreparazione, CaparraPagata -> InAttesa, Modificato -> InAggiornamento, Aggiornato -> Aggiornata).
+		-- Aggiunte varie guardie (n viaggiatori > 1) e metodi alle transizioni
+		-- Rimosso guardia di cancellazione nella transizione verso Cancellata e aggiunto transizione verso Cancellata.
+		-- Aggiunto stati all'inizio per cambi di stati durante l'associazione con cliente e il prodotto selezionato.
+		-- Aggiunto transizione per caparra non pagata (NOTA: non c'è un metodo adeguato per effettiva eliminazione).
+
+
+		(8885289) - LMaurizioZ
+		2024.05.30 alle 21:05:30
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- Diagramma classi SW:
+		-- Rimosso metodo "aggiungiViaggiatore()" perchè ridondante con l'esistenza di "aggiungiViaggiatore(viaggiatore)".
+		-- Rimosso associazioni a loop di PrenotazioneCreator e Cliente (probabilmente creati per sbaglio).
+		-- Messo iniziale maiuscola a richiestaDiModifica.
+		-- Aggiunto cardinalità all'associazione Prenotazione-RichiestaDiModifica.
+
+		- SD inserisciDatiForm:
+		-- Cambiato "aggiungiViaggiatore()" con "aggiungiViaggiatore(viaggiatore), e spostato sotto l'inizializzazione dei suoi attributi.
+
+
+		(0ec4f26) - LMaurizioZ
+		2024.05.30 alle 19:35:52
+		Titolo: Create Prenotazione.java
+		Descrizione:
+		Creato bozza scheletro di Prenotazione
+
+
+		(6ca6a3f) - LMaurizioZ
+		2024.05.29 alle 18:39:41
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		- SM Prenotazione:
+		-- Creato SM Prenotazione.
+
+
+		(8160753) - LMaurizioZ
+		2024.05.29 alle 17:41:59
+		Titolo: Create Pattern GRASP.txt
+		Descrizione:
+		Bozza DA RIGUARDARE E MODIFICARE
+
+
+		(3bf956b) - LMaurizioZ
+		2024.05.29 alle 16:29:27
+		Titolo: Update Trips & Travels.vpp
+		Descrizione:
+		-AD GestisciRischiesta:
+		-- Aggiunti guards a decision node aggiungi viaggiatore / rimuovi viaggiatore.
+
+		- Modello di dominio:
+		-- Aggiunte associazioni "visiona" e "ricerca" a Visitatore verso Viaggio.
