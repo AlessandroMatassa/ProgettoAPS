@@ -1,9 +1,9 @@
 Zheng Lei Maurizio 866251
 
 Contratto effettuaNuovaPrenotazione
-Operazione: effettuaNuovaPrenotazione()
+Operazione: effettuaNuovaPrenotazione(c: Cliente, pc: PacchettoVacanza)
 Riferimenti caso d'uso: EffettuaPrenotazione
-Precondizioni: è in corso l'effettuamento di una nuova prenotazione, fatta da un Cliente c, per un PacchettoVacanza pc
+Precondizioni: è in corso l'effettuamento di una nuova prenotazione, fatta dal Cliente c, per un PacchettoVacanza pc
 Postcondizioni:
 	- È stata creata un'istanza p di Prenotazione (creazione di oggetto)
 	- Gli attributi di p sono stati inizializzati (modifica di attributi)
@@ -13,7 +13,7 @@ Postcondizioni:
 
 
 Contratto inserisciDatiForm
-Operazione: inserisciDatiForm(nome, cognome, dataDiNascita, codiceFiscale)
+Operazione: inserisciDatiForm(nome: String, cognome: String, dataDiNascita: String, codiceFiscale: String)
 Riferimenti caso d'uso: EffettuaPrenotazione
 Precondizioni: è in corso l'effettuamento di una nuova prenotazione
 Postcondizioni:
