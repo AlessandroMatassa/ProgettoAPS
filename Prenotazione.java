@@ -11,18 +11,18 @@ public class Prenotazione {
 	
 	//metodi
 	public void create() {
-		//creazione di un istanza Prenotazione
+		//crea un istanza Prenotazione
 	};
 	
-	public void eliminaPrenotazione(String codicePrenotazione) {
-		//eliminazione di una prenotazione
+	public void cancellaPrenotazione(String codicePrenotazione) {
+		//cancella una prenotazione da una richiesta di cancellazione
 	}
 	
 	public void aggiornaStatus(String status) {
 		//modifica status
 	}
 	
-	public void modificaPrenotazione(String codicePrenotazione, Viaggiatore viaggiatore, double importo) {
+	public void modificaPrenotazione(String codicePrenotazione, Viaggiatore viaggiatore) {
 		//modifica di una prenotazione
 	}
 	
@@ -42,11 +42,10 @@ public class Prenotazione {
 		//associa la prenotazione con pacchettoVacanza
 	}
 	
-	public void associaViaggio(Viaggio viaggio) {
-		//associa la prenotazione con viaggio
-	}
-	
 	public void rimuoviViaggiatore(Viaggiatore viaggiatore) {
 		//rimuove un Viaggiatore dalla Prenotazione
 	}
+	
+	public void eliminaPrenotazione(Prenotazione prenotazione)
+		//elimina una prenotazione dal sistema
 }
