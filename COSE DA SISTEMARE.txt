@@ -14,3 +14,4 @@ Maurizio:
 Generali:
 	- Modello di dominio: Rimuovere i metodi.
 	- Nomenclature dei vari diagrammi incongruenti con il diagramma dei casi d'uso
+	- Verificare che le classi del Modello di dominio siano tutte presenti nel Diagramma classi SW con relative associazioni e molteplicità (manca classe Viaggio)
