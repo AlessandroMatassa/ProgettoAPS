@@ -3,17 +3,19 @@ Matassa Alessandro  894645
 Contratto modificaPrenotazione
 Operazione: modificaPrenotazione(codicePrenotazione, viaggiatore)
 Riferimenti caso d'uso: gestisciRichieste
-Precondizioni: Un operatore op ha richiesto la modifica di una prenotazione all'agenzia e ha ricevuto 
+Precondizioni: Un operatore op ha richiesto la modifica di una prenotazione inviando l'oggetto RM richiestaDiModifica all'agenzia e ha ricevuto un esito positivo 
 Postcondizioni:
-	- il numero di istanze di Viaggiatore associate alla prenotazione p è cambiato se la richiesta è stata approvata
+	- il numero di istanze di Viaggiatore associate alla prenotazione p è cambiato
+	- Lo stato della approvazione dell'oggetto RM è stato aggiornato
 
 
 
 Contratto cancellaPrenotazione
 Operazione: cancellaPrenotazione(codicePrenotazione, importo, metodo)
 Riferimenti caso d'uso: gestisciRichieste
-Precondizioni: un cliente C ha richiesto un rimborso per una prenotazione p da lui precedentemente effettuata, l'operatore op ha preso a carico la richiesta e l'agenzia ha confermato la richiesta
+Precondizioni: un cliente C ha richiesto un rimborso per una prenotazione p da lui precedentemente effettuata, l'operatore op ha preso a carico la richiesta RM e l'agenzia ha confermato la richiesta
 Postcondizioni:
 	- viene aggiornato l'attributo status dell'istanza della prenotazione p
+	- viene aggiornato lo status della richiestaDiModifica RM
 	- viene creata una istanza di rimborso associata a p con gli attributi importo e metodo presi dall'istanza pagamento sempre associata a p
 
