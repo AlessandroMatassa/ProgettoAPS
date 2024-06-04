@@ -44,9 +44,10 @@ Estensioni:
 						
 
 Requisiti speciali:			
-                            Il sistema aggiorna la prenotazione entro 5 secondi.
+                            				Il sistema aggiorna la prenotazione entro 5 secondi.
 							Il sistema deve garantire la sicurezza e la riservatezza dei dati personali degli utenti.
 							Il sistema deve essere conforme alle normative vigenti in materia di protezione dei dati.
+							Le modifiche effettuate vengono aggiornate ma lo stato precedente della prenotazione viene ricordato nello storico
 							L'interfaccia utente deve essere intuitiva e facile da usare per gli operatori.
 	
 
