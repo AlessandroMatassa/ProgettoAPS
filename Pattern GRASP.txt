@@ -1,11 +1,11 @@
 Pattern Creator:
-	- PrenotazioneCreator utilizza il pattern su Prenotazione.
-	- ClienteCreator utilizza il pattern su Cliente.
-	- Prenotazione utilizza il pattern su Viaggiatore.
-	- Catalogo utilizza il pattern su PacchettoVacanza.
-	?- Pagamento per Rimborso???
+	- PrenotazioneCreator utilizza il pattern sulla classe Prenotazione.
+	- ClienteCreator utilizza il pattern sulla classe Cliente.
+	- Prenotazione utilizza il pattern sulla classe Viaggiatore.
+	- Catalogo utilizza il pattern sulla classe PacchettoVacanza.
+	- Pagamento utilizza il pattern sulla classe Rimborso.
 
 Pattern Controller:
-	- PrenotazioneController utilizza il pattern su Pagamneto e PrenotazioneCreator.
-	- CatalogoController utilizza il pattern su Catalogo.
-	- ClienteController utilizza il pattern su ClienteCreator
+	- PrenotazioneController utilizza il pattern sulle classi Pagamento e PrenotazioneCreator.
+	- CatalogoController utilizza il pattern sulla classe Catalogo.
+	- ClienteController utilizza il pattern sulla classe ClienteCreator.
